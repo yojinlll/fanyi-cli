@@ -1,0 +1,24 @@
+{
+  "name": "fanyi-yojin",
+  "version": "0.0.3",
+  "main": "dist/main.js",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts",
+    "cli": "ts-node-dev src/cli.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/node": "^12.12.0"
+  }
+}
